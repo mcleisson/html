@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@media (min-width: 1920px) {
+  .work-right-text {
+    padding: 150px 150px;
+  }
+}
+.header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.40);
+    z-index: 9;
+  }
+  
+  .navbar-header a.navbar-brand {
+    display: inline-block;
+    height: 70px;
+    padding: 15px 0;
+  }
+
+  .navbar-default .navbar-toggle {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    padding: 25px 0px;
+  }
+
+  .main-menu ul.navbar-nav li {
+    display: inline-block;
+    padding: 0px 13px;
+  }
+  
+  .main-menu ul.navbar-nav li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 24px 0px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  .main-menu ul.navbar-nav li.active a::after {
+    border: 1px solid #fff;
+    bottom: 0px;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .main-menu ul.navbar-nav li.active a:hover {
+    background: none;
+    color: #fff;
+  }
+  
+  .main-menu ul.navbar-nav li.active a:focus {
+    color: #fff;
+  }
+  
+  .main-menu ul.navbar-nav li.active a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    position: relative;
+  }
+  
+  .main-menu ul.navbar-nav li a:hover {
+    color: #3EC1D5;
+  }
+  
+  .navbar {
+    border: medium none;
+    margin-bottom: 0;
+  }
+  
+  .navbar-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  }
+  
+  .copyright-text a:hover {
+    text-decoration: underline;
+    color: #3EC1D5;
+  }
+  
+  .copyright-text a {
+    color: #444;
+  }
+  
+  .copyright>p {
+    margin-bottom: 0;
+    color: #444;
+  }
+  
+  .copyright a, .credits a {
+    color: #3EC1D5;
+  }
+  
+
+  
+.site-footer {
+    background-color: #111;
+    padding: 0;
+  }
+  
+  .site-footer h2, .site-footer p {
+    color: #fff;
+  }
+  
+  .site-footer p {
+    opacity: .75;
+    line-height: 2.0925;
+  }
+  
+  .site-footer h2,
+  .site-footer .btn {
+    margin-bottom: 25px;
+  }
+  
+  .site-footer .social-nav a {
+    color: #fff;
+    opacity: .25;
+  }
+  
+  .site-footer .social-nav a:hover {
+    opacity: 1;
+  }
+  
+  .site-footer .bottom {
+    background-color: #000;
+    padding: 20px 0;
+  }
+  
+  .site-footer .bottom .list-inline, .site-footer .bottom p {
+    margin: 0;
+  }
+  
+  .site-footer .bottom .list-inline {
+    position: relative;
+    top: 5px;
+  }
+  
+  .site-footer .bottom .list-inline a {
+    color: #fff;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    margin-right: 15px;
+  }
+  
+  .site-footer .bottom .list-inline a:hover {
+    color: #199EB8;
+  }
+  
+  .site-footer .credits {
+    color: #ddd;
+  }
+  
+  .site-footer .credits a {
+    color: #199EB8;
+  }
+
+  .footer-area {
+    padding: 40px 0;
+    background: #f9f9f9;
+  }
+  
+  .footer-head p {
+    color: #444;
+  }
+  
+  .footer-head h4 {
+    color: #444;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer-logo {
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo h2 {
+    color: #222;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  .footer-logo h2 span {
+    color: #3ec1d5;
+  }
+  
+  .footer-icons ul li {
+    display: inline-block;
+  }
+  
+  .footer-icons ul li a {
+    border: 1px solid #444;
+    color: #444;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .flicker-img>a {
+    float: left;
+    padding: 1px;
+    width: 33.33%;
+  }
+  
+  .footer-icons {
+    margin-top: 30px;
+  }
+  
+  .footer-contacts p span {
+    color: #3EC1D5;
+    font-weight: 700;
+  }
+  
+  .popular-tag ul li {
+    display: inline-block;
+  }
+  
+  .footer-content {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .well-middle .single-well {
+    margin-top: 30px;
+  }
+  
+  .slider-area {
+    margin-top: 60px;
+  }
+
+  .slider-content h2 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .slider-content h1 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
